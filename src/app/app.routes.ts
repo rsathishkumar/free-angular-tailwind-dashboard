@@ -115,10 +115,10 @@ export const routes: Routes = [
     component:SignUpComponent,
     title:'Angular Sign Up Dashboard | TailAdmin - Angular Admin Dashboard Template'
   },
-  // error pages
+  // contact page
   {
-    path:'**',
+    path:'contact',
     component:NotFoundComponent,
-    title:'Angular NotFound Dashboard | TailAdmin - Angular Admin Dashboard Template'
+    title:'Contact Us | TailAdmin - Angular Admin Dashboard Template'
   },
 ];
